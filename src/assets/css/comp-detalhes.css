@@ -1,0 +1,60 @@
+.detalhes {
+  width: calc(55 * 100% / 45);
+  margin-top: 20px;
+}
+
+.detalhes #paperDetalhes {
+  margin-left: 20px;
+  padding: 16px;
+}
+
+.detalhes header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detalhes header table {
+  table-layout: fixed;
+  width: 100%;
+  margin-left: -4px;
+}
+
+.detalhes header table #avatarDetalhes {
+  width: 9vw;
+}
+
+.detalhes .avatar {
+  height: 8vw;
+  width: 8vw;
+}
+
+.detalhes .conteudo {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.detalhes .conteudo .interessados ul {
+  padding-left: 0;
+}
+
+.detalhes footer {
+  text-align: end;
+}
+
+.detalhes footer > * {
+  margin-left: 20px;
+}
+
+/* PHONE LANDSCAPE + TABLET */
+@media (max-width: 900px) {
+  .detalhes {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .detalhes #paperDetalhes {
+    margin-left: 0;
+  }
+}

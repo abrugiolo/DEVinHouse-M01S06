@@ -1,0 +1,46 @@
+.listagem {
+  width: 100%;
+}
+
+.listagem .card-processo {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.listagem .card-processo .atual {
+  border: 2px solid #005b95;
+  box-sizing: border-box;
+}
+
+.listagem .card-processo table {
+  table-layout: fixed;
+  width: 100%;
+  /* white-space: nowrap; */
+}
+
+.listagem .card-processo table th {
+  vertical-align: bottom;
+}
+
+.listagem .card-processo table th,
+.listagem .card-processo table td {
+  text-align: left;
+  padding: 2px 8px;
+}
+
+.listagem .card-processo table td {
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listagem .card-processo .avatar {
+  width: 84px;
+  height: 84px;
+}
+
+.listagem .card-processo #avatarListagem {
+  width: 84px;
+  padding-left: 2px;
+}
